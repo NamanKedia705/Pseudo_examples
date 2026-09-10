@@ -1,0 +1,9 @@
+//WAP to display numbers starting from 10 down to 1
+DECLARE i : INTEGER
+DECLARE N,Tot : INTEGER
+INPUT N
+Tot←0
+FOR i ← 1 TO N
+  Tot←Tot + i
+NEXT i
+OUTPUT Tot
