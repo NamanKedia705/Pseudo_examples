@@ -1,0 +1,7 @@
+//WAP to find the sum of even numbers from 50 to 120
+DECLARE Final:INTEGER
+DECLARE i:INTEGER
+FOR i←50 TO 120 STEP 2 
+  Final←Final+i
+NEXT i
+OUTPUT Final
