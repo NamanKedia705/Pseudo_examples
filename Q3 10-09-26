@@ -1,0 +1,8 @@
+//WAP to calculate sum of all even numbers from 1 to 20
+DECLARE i : INTEGER
+DECLARE Tot : INTEGER
+Tot←0
+FOR i ← 1 TO 20 STEP 2
+  Tot←Tot + i
+NEXT i
+OUTPUT Tot
