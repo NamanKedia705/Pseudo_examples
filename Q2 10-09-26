@@ -1,4 +1,4 @@
-//WAP to display numbers starting from 10 down to 1
+//WAP to calculate sum of all natural numbers from 1 to N
 DECLARE i : INTEGER
 DECLARE N,Tot : INTEGER
 INPUT N
