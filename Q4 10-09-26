@@ -1,0 +1,9 @@
+//WAP to print the multiplication table of a given integer
+DECLARE i : INTEGER
+DECLARE N,Tot : INTEGER
+INPUT N
+OUTPUT "--- Multiplication Table for ",N," ---"
+Tot←0
+FOR i ← 1 TO 10
+  OUTPUT N,"X",i,"=",i*N
+NEXT i
