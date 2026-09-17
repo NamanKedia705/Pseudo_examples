@@ -1,0 +1,19 @@
+//A teacher repeatedly enters the number of marks obtained by students. The maximum mark is 50.
+// WAP that
+//~repeatedly asks the user to enter a mark
+//~accepts the mark only if it is between 0 and 50
+//~display "Invalid mark - try again" for an invalid entry
+//~continues asking until a valid mark is entered
+//~displays the valid mark after it has been accepted
+DECLARE STATE : BOOLEAN
+DECLARE Marks : INTEGER
+STATE=TRUE
+WHILE STATE DO
+  INPUT Marks 
+  IF 0<=Marks AND Marks<=50 THEN
+    OUTPUT Marks
+  ELSE 
+    OUTPUT "Invalid mark - try again"
+    STATE=FALSE
+  ENDIF
+ENDWHILE
