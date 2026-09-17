@@ -1,0 +1,12 @@
+//A school records the percentage obtained by a student in a test.The percentage must be between 1 and 100 inclusive 
+// WAP to 
+//~input the percentage
+//~display "Valid percentage" if it is within the permitted range
+//~otherwise display "invalid percentage"
+DECLARE Percent: INTEGER
+INPUT Percent
+IF 1<=Percent<=100 THEN
+  OUTPUT "Valid Percentage"
+ELSE 
+  OUTPUT "Invalid Percentage"
+ENDIF
