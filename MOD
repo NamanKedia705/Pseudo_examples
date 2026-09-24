@@ -1,0 +1,7 @@
+// HOW to use MOD function
+// MOD returns the remainder of the division of two no.s
+// let 'a' be first no and 'b' be second
+//Can be written as :
+a MOD b
+//OR
+MOD(a,b)
