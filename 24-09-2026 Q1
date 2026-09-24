@@ -1,0 +1,12 @@
+//WAP that:
+//1. inputs an INTEGER
+//2. checks whether the number is even or odd using MOD
+//3. displays "Even number" or "Odd number"
+DECLARE Num1 : INTEGER
+INPUT Num1
+IF (Num1 MOD 2)=0 THEN
+  OUTPUT "Even number"
+ELSE
+  OUTPUT "Odd number"
+ENDIF  
+// IF 0 is inputed it returns even
