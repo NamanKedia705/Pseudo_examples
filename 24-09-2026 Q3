@@ -1,0 +1,17 @@
+//A computer game gives a player a score
+//WAP that:
+//inputs the score;
+//displays "Excellent" if the score is 80 or above
+//displays "Good" if the score is between  50 and 79
+//displays "Keep practising" if the score is below 50
+DECLARE Score : INTEGER
+INPUT Score
+IF Score>=80 THEN
+  OUTPUT "Excellent"
+ELSE
+  IF Score>=50 THEN
+    OUTPUT "Good"
+  ELSE 
+    OUTPUT "Keep practicing"
+  ENDIF
+ENDIF
