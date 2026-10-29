@@ -1,0 +1,9 @@
+DELARE Num: INTEGER
+INPUT Num, "Enter a number"
+IF MOD(Num, 2) = 1 
+  THEN
+    OUTPUT Num, "Is Even"
+  ELSE
+    OUTPUT Num, "Is Odd"
+ENDIF
+OUTPUT (DIV(Num, 10)), "tens in", Num
