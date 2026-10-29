@@ -1,0 +1,14 @@
+DECLARE UnitsConsumed: INTEGER
+DECLARE ToPay: INTEGER
+DECLARE Value: INTEGER
+ToPay ← 0
+Value ← 500
+INPUT UnitsConsumed, "Enter the units consumed"
+WHILE UnitsConsumed>=100
+   DO
+    ToPay ← ToPay + Value
+    Value ← Value + 250
+    UnitsConsumed ← UnitsConsumed - 100
+ENDWHILE
+ToPay ← ToPay + (Value * (UnitsConsumed/100))
+OUTPUT "Final Bill: ", ToPay
