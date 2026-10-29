@@ -1,0 +1,22 @@
+DELARE Marks: REAL
+INPUT Marks, "Enter the marks obtained by the student"
+WHILE Marks<0 OR Marks>100 
+  DO
+    INPUT Marks, "Invalid marks, please re-enter marks of the student"
+ENDWHILE
+IF Marks>=80
+  THEN
+    OUTPUT "Excellent"
+  ELSE
+    IF Marks>=60
+      THEN
+        OUTPUT "Good"
+      ELSE
+        IF Marks>=40
+          THEN
+            OUTPUT "Pass"
+          ELSE
+            OUTPUT "Fail"
+        ENDIF
+    ENDIF
+ENDIF
